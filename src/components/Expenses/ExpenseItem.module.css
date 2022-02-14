@@ -1,0 +1,56 @@
+.expense-item {
+  color: #fefefe;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 2rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.expense-item:last-of-type {
+  border-bottom: 0;
+}
+
+.title-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100px;
+  gap: 5px;
+}
+
+.title-price h2 {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.title-price h3 {
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 1rem;
+  border-radius: 3px;
+}
+
+.date span:nth-of-type(2) {
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .title-price {
+    width: fit-content;
+  }
+}

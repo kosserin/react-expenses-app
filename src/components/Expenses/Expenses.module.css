@@ -1,0 +1,14 @@
+.expenses {
+  background-color: rgba(0, 0, 0, 0.2);
+  list-style: none;
+  border-radius: 3px;
+  max-width: 100%;
+  width: 500px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .expenses {
+    width: 100%;
+  }
+}

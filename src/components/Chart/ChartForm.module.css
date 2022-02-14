@@ -1,0 +1,36 @@
+.form-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.chart-form {
+  background-color: transparent;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.form-group label {
+  color: #fefefe;
+}
+
+.form-group select {
+  background: rgba(0, 0, 0, 0.3);
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  height: 2rem;
+  width: 100px;
+  max-width: 100%;
+  padding-left: 5px;
+  color: #fefefe;
+  cursor: pointer;
+}
+
+.form-group option {
+  cursor: pointer;
+}
